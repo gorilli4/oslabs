@@ -1,0 +1,3 @@
+/home/ilia/CLionProjects/OS/lab2/cmake-build-debug/CMakeFiles/LabWork2.dir
+/home/ilia/CLionProjects/OS/lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ilia/CLionProjects/OS/lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
