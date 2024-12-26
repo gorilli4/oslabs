@@ -3,7 +3,7 @@
 #include <pthread.h>
 #include <time.h>
 
-// Глобальные переменные
+
 int *array;
 int num_elements;
 int max_threads;
@@ -16,7 +16,6 @@ typedef struct {
     int right;
 } ThreadData;
 
-// Функция для параллельной быстрой сортировки
 void *quicksort(void *arg) {
     ThreadData *data = (ThreadData *)arg;
     int left = data->left;
@@ -80,7 +79,6 @@ void *quicksort(void *arg) {
     return NULL;
 }
 
-// Функция для инициализации массива
 void initialize_array() {
     srand(time(NULL));
     for (int i = 0; i < num_elements; i++) {
@@ -88,7 +86,6 @@ void initialize_array() {
     }
 }
 
-// Функция для вывода массива
 void print_array() {
     for (int i = 0; i < num_elements; i++) {
         printf("%d ", array[i]);
